@@ -26,4 +26,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 int ackermannResult = AckermannFunction(m, n);
 
-Console.WriteLine($"A({m}, {n})  =  {ackermannResult}");
+Console.WriteLine($"A({m},{n})  =  {ackermannResult}");
+
+// При больших заданных числах возникает переполнение стека
